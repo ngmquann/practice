@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+}
+
+.body{
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
+.content{
+  max-width: 500px;
+  min-height: 400px;
+  background-color: #fff;
+  margin: auto;
+  box-shadow: 0px 8px 60px -10px rgb(13 28 39 / 60%);
+  border-radius: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+img{
+  width: 18vh;
+  height: 18vh;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -10%;
+}
+
+p{
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.link{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon{
+  font-size: 50px;
+}
+
+.icon:hover{
+  transform: scale(1.2);
+}
+
+#fb{
+  color: blue;
+}
+
+#insta{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#git{
+  color: darkgray;
+}
+
+#twitter{
+  color: #1DA1F2;
+}
+
+#mail{
+  color: crimson;
+}
